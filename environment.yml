@@ -1,0 +1,9 @@
+name: gpd-cross-trait
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - r-base>=4.2
+  - r-data.table
+  - r-dplyr
+  - r-ggplot2

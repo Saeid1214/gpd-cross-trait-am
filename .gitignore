@@ -1,0 +1,15 @@
+# Data — never track genotype, phenotype, or summary-statistic data
+*.gz
+*.log
+data/
+results/*
+!results/.gitkeep
+plots/output/
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+
+# OS
+.DS_Store
